@@ -3,4 +3,4 @@ builder = "dockerfile"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "sh start.sh"
+startCommand = "sh /app/start.sh"
