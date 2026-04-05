@@ -3,4 +3,4 @@ builder = "dockerfile"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "node openclaw.mjs gateway --allow-unconfigured --bind lan --port 8082 --control-ui-allowed-origins https://openclaw-production-516f.up.railway.app"
+startCommand = "node openclaw.mjs gateway --allow-unconfigured"
